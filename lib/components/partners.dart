@@ -6,12 +6,12 @@ class Partners extends StatelessComponent {
 
   // Edit this list: file name + partner name (used as alt text)
   static const _logos = [
-    ('./images/columbia.webp', 'Columbia Presbyterian Church'),
-    ('./images/Impact Logo.svg', 'Impact'),
-    ('./images/Tyrannus Logo.svg', 'Tyrannus'),
-    ('./images/Ushers SLW.svg', 'The Ushers'),
-    ('./images/Weekend Training SLW.svg', 'Weekend Training'),
-    ('./images/Youth SLW.svg', 'Youth'),
+    ('images/columbia.webp', 'Columbia Presbyterian Church'),
+    ('images/Impact Logo.svg', 'Impact'),
+    ('images/Tyrannus Logo.svg', 'Tyrannus'),
+    ('images/Ushers SLW.svg', 'The Ushers'),
+    ('images/Weekend Training SLW.svg', 'Weekend Training'),
+    ('images/Youth SLW.svg', 'Youth'),
   ];
 
   static const _next =

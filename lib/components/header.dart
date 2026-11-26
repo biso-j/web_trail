@@ -7,9 +7,9 @@ class Header extends StatelessComponent {
   @override
   Component build(BuildContext context) {
     return nav(classes: 'navbar', [
-      a(classes: 'logo', href: '/', [img(src: 'images/slw_logo.svg')]),
+      a(classes: 'logo', href: 'web_trail', [img(src: 'images/slw_logo.svg')]),
       div(classes: 'nav-links', [
-        a(href: '/', [Component.text('Home')]),
+        a(href: 'web_trail', [Component.text('Home')]),
         div(classes: 'dropdown', [
           span([Component.text('About ▾')]),
           div(classes: 'dropdown-menu', [
