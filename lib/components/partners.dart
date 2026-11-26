@@ -39,7 +39,7 @@ class Partners extends StatelessComponent {
       div(id: 'partners-track', classes: 'partners-track', [
         for (final logo in _logos)
           div(classes: 'partner-item', [
-            img(src: '/images/partners/${logo.$1}', alt: logo.$2),
+            img(src: 'images/partners/${logo.$1}', alt: logo.$2),
           ]),
       ]),
       div(classes: 'partners-arrows', [
