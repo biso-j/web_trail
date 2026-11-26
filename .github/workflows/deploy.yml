@@ -24,15 +24,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Dart
-        uses: dart-lang/setup-dart@v1
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
 
       - name: Install dependencies
-        run: dart pub get
+        run: flutter pub get
 
       - name: Build Jaspr
         run: |
-          dart pub global activate jaspr_cli
+          flutter pub global activate jaspr_cli
           jaspr build --verbose
 
       - name: Upload artifact
