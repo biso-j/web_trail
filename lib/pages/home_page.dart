@@ -103,7 +103,7 @@ class HomePage extends StatelessComponent {
       'align-items': 'center',
       'justify-content': 'center',
       'padding': '120px 20px',
-      'background': "url('/images/giorgio-parravicini-12IHVEFRacQ-unsplash.jpg') center / cover no-repeat",
+      'background': "url('./images/giorgio-parravicini-12IHVEFRacQ-unsplash.jpg') center / cover no-repeat",
     }),
     css('.hero-banner::before').styles(raw: {
       'content': '""',

@@ -33,7 +33,7 @@ class HistoryPage extends StatelessComponent {
           p([Component.text('Then in 2008, the first Tyrannus Missionary School opened in Sudan, training and sending Sudanese missionaries to the forgotten corners of Sudan, North Africa, and the Middle East.')]),
         ]),
         div(classes: 'early-years-img', [
-          img(src: '/images/early-years.jpg', alt: 'The early years'),
+          img(src: './images/early-years.jpg', alt: 'The early years'),
         ]),
       ]),
 
@@ -46,14 +46,14 @@ class HistoryPage extends StatelessComponent {
           p([Component.text('Tyrannus continues to grow as church leaders across regions embrace the vision and open doors to the unreached.')]),
         ]),
         div(classes: 'the-present-img', [
-          img(src: '/images/the-present.jpg', alt: 'The Present'),
+          img(src: './images/the-present.jpg', alt: 'The Present'),
         ]),
       ]),
 
       section(classes: 'what-next',[
         h2([Component.text('What Is Next?')]),
         p([Component.text('Streams hopes to start schools in the rest of Africa, and now praying about Asia and Europe (to reach the millions of refugees there) and any other country in Africa or the Middle East where doors are opened.')]),
-        img(src: '/images/what-next.jpg', alt: 'What Is Next'),
+        img(src: './images/what-next.jpg', alt: 'What Is Next'),
       ]),
       
       const Form(),
@@ -75,7 +75,7 @@ class HistoryPage extends StatelessComponent {
     css('.history-title-bg').styles(raw: {
       'position': 'absolute',
       'inset': '0',
-      'background': "url('/images/title-bg.jpg') center / cover no-repeat",
+      'background': "url('./images/title-bg.jpg') center / cover no-repeat",
       'filter': 'blur(8px)',
       'transform': 'scale(1.1)', 
     }),

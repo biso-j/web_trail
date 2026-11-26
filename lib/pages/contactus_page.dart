@@ -20,7 +20,7 @@ class ContactUsPage extends StatelessComponent {
     return section(classes: 'contact', [
       // Left: tall photo
       div(classes: 'contact-img', [
-        img(src: '/images/contact-us.jpg', alt: 'Contact us'),
+        img(src: './images/contact-us.jpg', alt: 'Contact us'),
       ]),
 
       // Right: form
