@@ -34,7 +34,7 @@ jobs:
 
       - name: Build Jaspr
         run: |
-          flutter pub global activate jaspr_cli
+          flutter pub global activate jaspr_cli ^0.24.0-beta.2
           jaspr build --verbose
 
       - name: Upload artifact
