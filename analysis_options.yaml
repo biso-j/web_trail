@@ -16,6 +16,7 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   exclude:
     - build/**
+    - web/**
 #   exclude:
 #     - path/to/excluded/files/**
 

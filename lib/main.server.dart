@@ -25,6 +25,7 @@ void main() {
   // [Document] renders the root document structure (<html>, <head> and <body>)
   // with the provided parameters and components.
   runApp(Document(
+    base: 'web_trail',
     title: 'web_trail',
     styles: [
       // Special import rule to include to another css file.
